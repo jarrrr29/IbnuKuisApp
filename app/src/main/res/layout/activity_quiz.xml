@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E1"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <!-- Pertanyaan -->
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pertanyaan akan muncul di sini"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center" />
+
+    <!-- Tombol Pilihan -->
+    <Button
+        android:id="@+id/btnA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <!-- Info Skor, Nyawa, Timer -->
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skor: 0"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvLives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nyawa: 3"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timer: 30"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Tombol Akhir (Muncul setelah kuis selesai) -->
+    <Button
+        android:id="@+id/btnMainUlang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Lagi"
+        android:visibility="gone"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnKeluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:visibility="gone"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

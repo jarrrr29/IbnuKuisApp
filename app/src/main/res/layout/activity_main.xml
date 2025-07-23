@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E1"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/btnMulai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mulai Kuis"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"/>
+</LinearLayout>
